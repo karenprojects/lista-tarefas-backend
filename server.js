@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 5000; // Defina a porta do servidor
+const PORT = process.env.PORT || 3000; // Defina a porta do servidor
 
 app.use(express.json()); // Responsável por fazer o parse do corpo das requisições HTTP com formato JSON
 
